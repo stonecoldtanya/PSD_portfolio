@@ -1,0 +1,353 @@
+html, body, p, h1, h3, h2, fieldset, legend, a, img, span, div{
+	margin: 0;
+	padding: 0;
+}
+html {
+	font-size: 62.5%
+}
+body{
+	width: 1920px;
+}
+.wrapper{
+	width: 900px;
+	margin: 0 auto; 
+}
+legend{
+	text-align: center;
+}
+/***************** THE START OF HEADER**************/
+#header{
+	width: 100%;
+	height: 1072px;
+	margin: 0px auto;
+	background: url('images/bg.png'); 
+	font-family: 'Lato', sans-serif;
+}
+#header .wrapper{
+	margin: 0 auto;
+}
+#header .wrapper .container{
+	width: 580px;
+	margin: 0 auto;
+	height: 100%
+}
+#header h2{
+	font-family: Lato, sans-serif;
+	font-weight: 700;
+	font-size: 5.4rem;
+	text-align: center;
+	text-transform: uppercase;
+	color: #fff;
+	margin:  54px 0;
+}
+#header p{
+	font-family: Lato, sans-serif;
+	font-size: 1.5rem;
+	font-weight: 400;
+	text-transform: uppercase;
+	height: 70px;
+	text-align: center;
+	color: #fff;
+}
+#header span{
+	display: block;
+}
+#header h1{
+	height: 60px;
+	padding: 286px 270px 40px 270px; 
+}
+#header a{
+	height: 60px
+}
+/***************** THE START OF ABOUT US**************/
+#aboutus{
+	width: 100%;
+	height: 630px;
+	margin: 0px auto;
+	font-family: Lato, sans-serif;
+}
+#aboutus .wrapper{
+	padding: 160px 0px;
+}
+#aboutus .wrapper fieldset{
+	height: 310px;
+}
+#aboutus .wrapper h3{
+	margin: 0 105px;
+	font-size: 3.4rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-align: center;
+}
+#aboutus .text{
+	margin: 50px 0px; 
+}
+#aboutus .wrapper p{
+	font-size: 1.6rem;
+	font-weight: 300;
+	font-family: Lato, sans-serif;
+	text-align: center;
+}#aboutus .wrapper .firstp{
+	margin: 0 auto;
+	width: 560px; 
+	padding-bottom:30px;
+}
+#aboutus .wrapper .secondp{
+	margin: 0 auto;
+	width: 440px; 
+}
+#aboutus span{
+	display: block;
+}
+/***************** THE START OF SERVICES**************/
+#services{
+	width: 100%;
+	height: 490px;
+	margin: 0px auto;
+	font-family: Lato, sans-serif;
+	background: url('images/bg2.png');
+}
+#services .wrapper{
+	padding: 110px 0px;
+}
+#services .wrapper fieldset{
+	height: 150px;
+	padding: 50px 0px;
+}
+#services .wrapper h3{
+	margin: 0 115px;
+	font-size: 3.4rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-align: center;
+	color: #fff;
+}
+#services .wrapper p{
+	margin: 0px auto;
+	font-size: 1.6rem;
+	font-weight: 300;
+	height: 150px;
+	width: 560px;
+	text-align: center;
+	color: #fff;
+}
+#services .wrapper span{
+	display: block;
+}
+/***************** THE START OF WWD**************/
+#wwd{
+	width: 100%;
+	height: 1410px;
+	margin: 0px auto;
+	font-family: Lato, sans-serif;
+}
+#wwd .wrapper{
+	padding: 115px 0px;
+}
+#wwd .wrapper h3{
+	margin: 0px 75px;
+	font-size: 3.4rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-align: center;
+}
+#wwd .container h3{
+	font-size: 2.0rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 40px 0px;
+}
+#wwd .wrapper fieldset{
+	padding-top: 105px;  
+}
+#wwd .container{
+	margin: 0px auto; 
+	width: 560px;
+	height: 980px;
+}
+#wwd .container div{
+	margin-bottom: 80px;
+}
+#wwd .container p{
+	font-size: 1.4rem;
+	font-weight: 300;
+	text-align: center;
+}
+#wwd .container span{
+	width: 82px;
+	height: 92px;
+	background-color: #fff;
+	display: block;
+	margin: 0px auto;
+}
+.container div:first-of-type span{
+	background: url('images/index.png') no-repeat -1664px -1602px;
+}
+.container div:nth-of-type(2) span{
+	background: url('images/index.png') no-repeat -1664px -1705px;
+}
+.container div:nth-of-type(3) span{
+	background: url('images/index.png') no-repeat -1764px -1602px;
+}
+
+/***************** THE START OF OUR WORKS**************/
+#ourworks{
+	width: 100%;
+	height: 490px;
+	margin: 0px auto;
+	font-family: Lato, sans-serif;
+	display: inline-block;
+}
+#ourworks #wrapper{
+	width: 100%;
+	height: 240px;
+	display: inline-block;
+	margin: 0px auto;
+}
+#ourworks .container{
+	width: 550px;
+	display: inline-block; 
+	height: 240px;
+	margin-right: 5px;
+}
+#ourworks .container1{
+	width: 800px;
+	display: inline-block;
+	height: 240px;
+}
+#ourworks .container2{
+	width: 550px;
+	display: inline-block;
+	height: 240px;
+	margin-left: 10px;
+}
+#ourworks .container img{
+    position: relative;
+    text-align: center;
+	float:left;
+	height: 240px;
+	width: 550px;
+}
+#ourworks .container1 img{
+    position: relative;
+    text-align: center;
+	float:left;
+	width: 800px;
+	height: 240px;
+}
+#ourworks .container2 img{
+    position: relative;
+    text-align: center;
+	float:left;
+	height: 240px;
+	width: 550px;
+}
+#ourworks .container .topworkz{
+	position: relative;
+	left: 20px;
+    bottom: 40px;
+	color: #fff;
+	text-transform: uppercase;
+	height: 40px;
+	width: 200px;
+	font-size: 1.6rem;
+	font-family: Lato, sans-serif;
+}
+#ourworks .container1 .joint{
+	position: relative;
+	left: 20px;
+    bottom: 40px;
+	color: #fff;
+	text-transform: uppercase;
+	height: 40px;
+	width: 200px;
+	font-size: 1.6rem;
+	font-family: Lato, sans-serif;
+}
+#ourworks .container2 .market{
+	position: relative;
+	left: 20px;
+    bottom: 40px;
+	color: #fff;
+	text-transform: uppercase;
+	height: 40px;
+	width: 200px;
+	font-size: 1.6rem;
+	font-family: Lato, sans-serif;
+}
+/***************** THE START OF CONTACT US**************/
+#contactus{
+	width: 100%;
+	height: 300px;
+	margin: 0px auto;
+	font-family: Lato, sans-serif;
+	padding-top: 130px;
+}
+#contactus .wrapper fieldset{
+	padding-bottom: 50px;
+}
+#contactus h3{
+	margin: 0px 95px;
+	font-size: 3.4rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-align: center;
+	line-height: 30px
+}
+#contactus p{
+	width: 540px;
+	margin: 0px auto;
+	font-size: 1.6rem;
+	font-weight: 300;
+	text-align: center;
+	color: #000;
+	padding: 50px 0px;
+}
+#contactus #button{
+	width: 400px;
+	height: 20px;
+	background: #333;
+	color: #fff;
+	margin: 0px auto;
+	padding: 20px 
+
+}
+#contactus #button a{
+	text-decoration: none;
+	margin: 0 auto;
+}
+#contactus #button h3{
+	font-size: 1.6rem;
+	font-weight: 400;
+	text-align: center;
+	color: #fff;
+}
+/***************** THE START OF FOOTER**************/
+#footer{
+	width: 100%;
+	text-align: center;
+	height: 35px;
+	margin: 0px auto;
+	font-family: Lato, sans-serif;
+	padding: 65px 0px;
+}
+#footer .wrapper{
+	height: 35px;
+}
+#footer .wrapper p{
+	display: inline-block;
+	height: 15px;
+	width: 250px;
+	font-size: 1.4rem;
+	font-weight: 400;
+	text-align: center;
+}
+#footer h1{
+	display: inline-block;
+	margin-right: 30px;
+	height: 35px;
+}
+#footer .wrapper{
+	display: inline-block;
+}
